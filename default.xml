@@ -11,19 +11,7 @@
            remote="aosp"
            sync-j="4" />
   
-  <project path="device/google/blueline-kernel" name="device_google_blueline-kernel" groups="device,crosshatch,generic_fs" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/bonito-kernel" name="device_google_bonito-kernel" groups="device,bonito" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/bramble-kernel" name="device_google_bramble-kernel" groups="device,bramble" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/coral-kernel" name="device_google_coral-kernel" groups="device,coral,generic_fs" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/redfin-kernel" name="device_google_redfin-kernel" groups="device,redfin" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/sunfish-kernel" name="device_google_sunfish-kernel" groups="device,sunfish" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/crosshatch-kernel" name="device_google_crosshatch-kernel" groups="device,crosshatch,generic_fs" clone-depth="1" remote="grapheneos" />
-
-  <project path="kernel/google/coral" name="kernel_google_coral" remote="grapheneos" />
-  <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="grapheneos" />
   <project path="kernel/google/redbull" name="kernel_google_redbull" remote="grapheneos" />
-  <project path="kernel/google/sunfish" name="kernel_google_sunfish" remote="grapheneos" />
-
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="grapheneos" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="pdk" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" />
