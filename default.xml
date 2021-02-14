@@ -20,6 +20,4 @@
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" clone-depth="1" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
 
-  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
-
 </manifest>
